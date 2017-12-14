@@ -1,0 +1,87 @@
+.body{
+	background: linear-gradient(#76278f,#2b1e66);
+}
+.content{
+	color: #FFF;
+	height: 100vh;
+	width: 100%;
+	z-index: 100;
+	position: absolute;
+	padding-top: 40vh;
+	background: linear-gradient(#76278f,#2b1e66);
+}
+
+.content img{
+	height: 10vh;
+	width: 100%;
+	margin-bottom: 60%;
+}
+
+/*Loading*/
+
+.osahanloading {
+	animation: 1.5s linear 0s normal none infinite running osahanloading;
+	background: #7B51B3 none repeat scroll 0 0;
+	border-radius: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: -25px;
+	margin-top: -25px;
+	position: absolute;
+	top: 50%;
+	width: 50px;
+}
+
+.osahanloading::after {
+	animation: 1.5s linear 0s normal none infinite running osahanloading_after;
+	border-color: #76278f transparent;
+	border-radius: 80px;
+	border-style: solid;
+	border-width: 10px;
+	content: "";
+	height: 80px;
+	left: -15px;
+	position: absolute;
+	top: -15px;
+	width: 80px;
+}
+
+@keyframes osahanloading {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		background: #76278f none repeat scroll 0 0;
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+.content2{
+	padding: 2em;
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/lyft-auto.jpg);
+}
+
+.content2 img{
+	height: 5em;
+	width: auto;
+}
+
+.down{
+	display: flex;
+	align-items: flex-end;
+	height: 70vh;
+}
+.btn {
+	background: transparent;
+	color: #FFF;
+	border: 3px solid #FFF;
+}
+
