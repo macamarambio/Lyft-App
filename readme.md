@@ -16,9 +16,11 @@
 
 + El input para el número de teléfono solo deja ingresar números.
 
-+ Boton Next parte deshabilitado, solo se habilita al ingresar un numero de 10 caracteres.
++ Boton Generar Codigo parte deshabilitado, solo se habilita al ingresar un numero de 10 caracteres.
 
-+ Al dar click en Next envía una alerta con un código generado aleatoriamente (LAB-000)
++ Al dar click en Generar Codigo envía una alerta con un código generado aleatoriamente (LAB-000)
+
++ Al dar click en boton validar codigo aparece una nueva sección
 
 
 
