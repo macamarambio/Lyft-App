@@ -21,13 +21,13 @@
 				<div class="modal-header row">
 					<div class="col-xs-12 col-sm-12">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel"><img class= "logo-m" src="assets/img/logo-pink.png" alt="">Sign Up </h4>
+						<h4 class="modal-title" id="myModalLabel"><img class= "logo-m" src="assets/img/logo-pink.png" alt="logo">Sign Up </h4>
 					</div>
 				</div>
 				<div class="modal-body row">
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 						<label>Country:</label>
-						<select id="country" tabindex="1" class="wSelect-option-value wSelect-option-icon">
+						<select id="country" tabindex="1" class=" wSelect-option-value wSelect-option-icon">
 							<option class="wSelect-selected wSelect-option-icon" value="ch" data-icon="assets/img/ch.png">Chile</option>
 							<option value="mx" data-icon="assets/img/mx.png">México</option>
 							<option value="pe" data-icon="assets/img/pe.png">Perú</option>
@@ -35,23 +35,24 @@
 						</select>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-						<label class="wLabel-left">Phone Number:</label>
-						<input type="text" placeholder="+56" required>
+						<label>Phone Number:</label>
+						<input id="phone" name="phone" type="tel" placeholder="phone number" required>
+						<p id="texto"></p>
 					</div>
 				</div>
 				<div class="modal-footer">
 					<p class="text-center">We'll send a text to verify your phone</p>
-					<button type="button" class="btn btn-warning btn-md center-block">Next</button>
+					<button id="boton" data-toogle="modal" type="submit" class="btn btn-warning btn-md center-block">Next</button>
 				</div>
 			</div>
 		</div>
 	</div> <!-- fin modal sign in-->
-		<!--splash
+		<!--splash-->
 	<div class="container-fluid content">
 		<div class="row">
 			<div class="col-xs-6 col-sm-6 col-xs-push-3">
 				<img src="assets/img/logo-white.png" alt="logo">
-Loading
+<!-- Loading -->
 		<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="animationload">
@@ -62,7 +63,7 @@ Loading
 	</div>
 </div>
 	</div>
--->
+
 
 
 <!-- Content 2 -->
@@ -81,8 +82,6 @@ Loading
 	</div><!--content 2-->
 
 	<!-- Script -->
-	<script src="https://use.fontawesome.com/c8010596eb.js"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6zxfe5o7nXMBxNJpc0gaymWV4eu96j_E&callback=initMap"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="assets/js/app.js"></script>
 </body>
