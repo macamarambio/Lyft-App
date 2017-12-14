@@ -92,4 +92,27 @@
 	width: 15%;
 }
 
-/*Select Icon*/
+/*Select banderas*/
+
+.wSelect-option {
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	margin-bottom: 1px;
+	cursor: pointer;
+}
+
+.wSelect-option-value {
+	padding: 5px 0;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+input{
+	margin: 0px 35px 0px 5px;
+	border-radius: 10%;
+}
+}
+
+
+
