@@ -1,11 +1,11 @@
 $(document).ready( function(){
-/*splash*/
+	/*splash*/
 	setTimeout( function() {
 		$('.content').fadeOut(500);
-		},3000);
-		setTimeout( function() {
-			$('.content2').fadeIn(500);
-		});
+	},3000);
+	setTimeout( function() {
+		$('.content2').fadeIn(500);
+	});
 });
 
 
@@ -31,12 +31,13 @@ $('#phone').keyup( function(){
 /*Enviar codigo*/
 
 function code() {
-  var code = "";
-  var str = "123456789";
-  for (var i = 0; i < 3; i++) {
-  	code += str.charAt(Math.floor(Math.random() * str.length));
-  }
-  return code;
+	var code = "";
+	var str = "123456789";
+	for (var i = 0; i < 3; i++) {
+		code += str.charAt(Math.floor(Math.random() * str.length));
+	}
+	return code;
 }
 
 alert(code());
+
