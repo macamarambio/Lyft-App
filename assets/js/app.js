@@ -42,7 +42,7 @@ function code() {
 
 $('#boton2').click(showSelect);
 
-function showSect() {
+function showSelect() {
 	$('.validate').show();
 	$('.content2').hide();
 }
