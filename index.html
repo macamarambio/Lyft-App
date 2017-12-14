@@ -24,34 +24,24 @@
 						<h4 class="modal-title" id="myModalLabel"><img class= "logo-m" src="assets/img/logo-pink.png" alt="">Sign Up </h4>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-4 col-sm-4 col-md-4 col-lg-4">
-						<label for="paises">Selecciona tu país:</label>
-						<select name="pais" id="pais">
-							<option value="chile" data-class="chile">Chile</option>
-							<option value="mexico" data-class="mexico" >México</option>
-							<option value="peru" data-class="peru">Perú</option>
-							<option value="usa" data-class="usa">Estados Unidos	</option>
+				<div class="modal-body row">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<label class="wLabel-left">Country:</label>
+						<select id="country" tabindex="1">
+							<option value="CH" data-icon="assets/img/ch.png">Chile</option>
+							<option value="MX" data-icon="assets/img/mx.png">México</option>
+							<option value="PE" data-icon="assets/img/pe.png">Perú</option>
+							<option value="USA" data-icon="assets/img/usa.png">Estados Unidos</option>
 						</select>
 					</div>
-				</div>
-				<div class="modal-body row">
-					<div class="col-xs-6 col-sm-6">
-						<p><strong>Dirección:</strong> Av. Manuel Montt 235, Santiago, Región Metropolitana</p>
-					</div>
-					<div class="col-xs-6 col-sm-6">
-						<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i></p>
-						<div class="row">
-						<div class="col-xs-12 col-sm-12">
-							<p>Rango de precios $$$</p>
-							<p>Servicio a domicilio</p>
-						</div>
-					</div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						<label class="wLabel-left">Phone Number:</label>
+						<input type="text" placeholder="+56" required>
 					</div>
 				</div>
 				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-warning">Pedir Ahora</button>
+					<p class="text-center">We'll send a text to verify your phone</p>
+					<button type="button" class="btn btn-warning btn-md center-block">Next</button>
 				</div>
 			</div>
 		</div>

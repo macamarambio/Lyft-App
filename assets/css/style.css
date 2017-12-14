@@ -80,7 +80,7 @@
 	align-items: flex-end;
 	height: 70vh;
 }
-.btn {
+.content2 .btn {
 	background: transparent;
 	color: #FFF;
 	border: 3px solid #FFF;
@@ -93,39 +93,3 @@
 }
 
 /*Select Icon*/
-
-.chile{
-	background-image: url(../img/chile.png);
-}
-
-.mexico{
-	background-image: url(../img/mxn.png);
-}
-
-
-.peru{
-	background-image: url(../img/Bandera_de_Perú.png);
-}
-
-.usa{
-	background-image: url(../img/usa.png);
-}
-
-/* select with custom icons */
-.ui-selectmenu-menu .ui-menu.customicons .ui-menu-item-wrapper {
-	padding: 0.5em 0 0.5em 3em;
-}
-.ui-selectmenu-menu .ui-menu.customicons .ui-menu-item .ui-icon {
-	height: 24px;
-	width: 24px;
-	top: 0.1em;
-}
-
-/* select with CSS avatar icons */
-option.avatar {
-	background-repeat: no-repeat !important;
-	padding-left: 20px;
-}
-.avatar .ui-icon {
-	background-position: left top;
-}
