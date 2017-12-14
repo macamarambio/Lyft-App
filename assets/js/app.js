@@ -31,15 +31,25 @@ $('#phone').keyup( function(){
 /*Enviar codigo*/
 $('#boton').click(code);
 
-
 function code() {
-  var code = '';
-  var str = ('123456789');
-  for (var i = 0; i < 3; i++) {
-  	code += str.charAt(Math.floor(Math.random() * str.length));
-  }
-  alert('your code is: LAB-' + code);
+	var code = '';
+	var str = ('123456789');
+	for (var i = 0; i < 3; i++) {
+		code += str.charAt(Math.floor(Math.random() * str.length));
+	}
+	alert('your code is: LAB-' + code);
 }
+
+$('#boton2').click(showSelect);
+
+function showSect() {
+	$('.validate').show();
+	$('.content2').hide();
+}
+
+
+
+
 
 
 

@@ -113,7 +113,12 @@ input{
 	border-radius: 10%;
 }
 
-
+.validate {
+	background-color: #FFF;
+	padding: 2em;
+	height: 100vh;
+	width: 100%;
+}
 
 
 

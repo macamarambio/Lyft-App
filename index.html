@@ -42,7 +42,14 @@
 				</div>
 				<div class="modal-footer">
 					<p class="text-center">We'll send a text to verify your phone</p>
-					<button id="boton" data-toogle="modal" type="submit" class="btn btn-warning btn-md center-block disabled">Next</button>
+					<div class="row">
+						<div class="col-xs-6">
+							<button id="boton" data-toogle="modal" type="submit" class="btn btn-warning btn-md center-block disabled">Generate Code</button>
+						</div>
+						<div class="col-xs-6">
+							<button id="boton2" data-toogle="modal" type="submit" class="btn btn-primary btn-md center-block">Verify</button>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -80,6 +87,13 @@
 		</div>
 
 	</div><!--content 2-->
+
+	<!-- Seccion Validar -->
+	<section class="container-fluid validate" style="display:none">
+		<h3>Verify phone number</h3>
+		<p>Join now for free ride credit</p>
+		<label for="">LAB-</label><input name="code" type="tel" placeholder="3 digits" required>
+	</section>
 
 	<!-- Script -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
